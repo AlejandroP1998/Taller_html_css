@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: #16213E;
+    list-style-type: none;
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a{
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: 'Nabla', cursive;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row;
+    background-color: #533483;
+}
+
+#img1{
+    width: 600px;
+}
+
+#img2{
+    width: 600px;
+}
+
+.Container{
+    display: flex;
+    background-color: #0F3460;
+}
