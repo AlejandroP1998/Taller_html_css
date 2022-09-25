@@ -1,0 +1,12 @@
+.bg-purple{
+    background-color: purple;
+}
+
+.w-personalizado{
+    width: 100%;
+    height: 100vh;
+}
+
+.txtP{
+    font-family: 'Blaka Ink', cursive;
+}
