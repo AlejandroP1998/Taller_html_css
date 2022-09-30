@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: blue;
+    width: 100vw;
+    height: 100px;
+}
+
+header ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+header a{
+    color: white;
+}
+
+.rojo{
+    color: red;
+}
+
+.index-1{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#consola1{
+    height: 400px;
+}
+
+.index-2{
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    height: 50vh;
+}
+
+#consola2{
+    width: 300px;
+}
+
+.p-1{
+    background-color: red;
+    display: flex;
+    height: 50vw;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+#consola3{
+    width: 300px;
+}
+
+.fondoMorado{
+    background-color: purple;
+}
+
+.imagenCarrusel{
+    width: auto;
+    height: 300px;
+}
