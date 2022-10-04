@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.lista{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    width: 100vw;
+    height: 400px;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.lista li{
+    color: white;
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr;
+}
+
+.bloque{
+    display: flex;
+}
+
+.bloque button{
+    background-color: red;
+    height: 40px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: skyblue;
+    height: 600px;
+}
+
+.contenedor img{
+    width: 200px;
+}
+
+#imagen2{
+    width: 400px;
+}
